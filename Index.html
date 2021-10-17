@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="UTF-8">
+		
+		<title></title>
+
+		<link rel="stylesheet" type="text/css" href="jquery.quiz-min.css" />		
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+	</head>
+		
+	<header>
+		<section class="title">
+			&nbsp;Investbud
+		</section>
+		<nav>
+			<a href="BTC.html">&nbsp;BTC&nbsp;</a>
+		</nav>
+	</header>
+	
+	<body>
+		<h1> Investbud is for everyone &#129307</h1>
+		<p>InvestBud is a crypto paper-trading platform where you can understand the deeply complex world of cryptocurrencies
+			<br>You can click on BTC button to get started. <br> <br> Your saving is an active source of further incomes <br><br> Test out your understanding on personal investment</p>
+
+		
+		<div id="quiz">
+			<div id="quiz-header">
+			</div>
+			<div id="quiz-start-screen">
+			  <p><a href="#" id="quiz-start-btn" class="quiz-button">Start</a></p>
+			</div>
+		  </div>
+		  
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		  <script src="jquery.quiz-min.js"></script>
+		  <script>
+			$('#quiz').quiz({
+			  //resultsScreen: '#results-screen',
+			  //counter: false,
+			  //homeButton: '#custom-home',
+			  counterFormat: 'Question %current of %total',
+			  questions: [
+				{
+				  'q': 'What is one important thing to remember as a beginning investor?',
+				  'options': [
+					'Start investing with a small amount that you can afford and contribute to your investment regularly.',
+					'Make sure you have job security before you begin investing.',
+					'Never start investing until all your bills are paid and you are debt free.',
+					'Investment is insignificant if you are not wealthy'
+				  ],
+				  'correctIndex': 0,
+				  'correctResponse': 'That is correct!',
+				  'incorrectResponse': 'You can start investing with a small amount of money that you can spare and build up your assets over time. A little money invested now can result in huge rewards 20 or 30 years down the road.'
+				},
+				{
+				  'q': 'Every good investment plan starts with:',
+				  'options': [
+					'an appointment with a Certified Financial Planner',
+					'a clear statement of financial goals',
+					'an interest in making money in addition to your salary'
+				  ],
+				  'correctIndex': 1,
+				  'correctResponse': 'That is correct!',
+				  'incorrectResponse': 'Before you start investing, you need to have a clear understanding of what your life goals are. Once you establish goals, your goals will help you to define your investment strategy.'
+				},
+				{
+				  'q': 'You are ready to start taking steps to build an investment portfolio but first you need to:',
+				  'options': [
+					'subscribe to a some investment journals',
+					'hire a broker that can also offer you financial planning services',
+					'educate yourself about investing'
+				  ],
+				  'correctIndex': 2,
+				  'correctResponse': 'That is correct!',
+				  'incorrectResponse': 'Once you have decided that it is a good idea to invest, you will need to educate yourself about investing. Find out all you are able about stocks, bonds, mutual funds and other investment strategies.'
+				}
+			  ]
+			});
+		  </script>
+		  
+
+	</body>
+
+
+	
+</html>

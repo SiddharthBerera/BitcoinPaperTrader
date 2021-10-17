@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+*{
+	font-family: 'Work Sans', sans-serif;
+
+
+}
+
+header {
+	position: fixed;
+	padding: 25px 0 25px 0;
+
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: white;
+	font-size: 20px;
+	font-family: helvetica;
+	text-transform: uppercase;
+	color: gray;
+	
+}
+section.title{
+	padding: 0 0 0 10px;
+	float:left;
+	
+	margin-right: 20px;
+}
+
+section.title:hover{
+	color:black;
+	cursor: url('img/cursor_small.png'), auto;
+}
+
+nav{
+	padding: 0 5px 0 15px;
+	float: right;
+}
+
+/* Body */
+p{
+	font-weight: 200;
+	margin-top: 20px;
+	color: black;
+	line-height: 1;
+}
+
+a {
+	font-size: 20px;
+	border: 1px solid black;
+	border-radius: 100px;
+	background-color: white;
+	text-decoration: none;
+	padding-left: 8px;
+	padding-right: 8px;
+	color:black;
+}
+
+a:hover {
+	background-color: black;
+	color:white;
+}
+
+div.quiz a{
+	text-transform: none;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+body{
+	font-size: 18px;
+	padding:50px 5px 5px 5px;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: 100;
+	/*border-bottom: 1.5px solid black; */
+	padding: 40px 0 0 0 ;
+	line-height: 80px;
+	margin-bottom: 15px;
+	line-height: 0.8;
+	align-items: center;
+}
+
+div.chart{
+	padding: 0 0 0 0 ;
+	margin: 0 0 0 0 ;
+}
+
+/* Mobile */
+@media (max-width: 960px){
+	section.title{
+		float: none;
+	}
+	nav{
+		margin: 7px 0 0 0;
+		float: none;
+		display: block;
+	}
+	
+	
+}
